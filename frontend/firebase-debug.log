@@ -1,0 +1,93 @@
+[debug] [2026-06-26T23:19:42.518Z] ----------------------------------------------------------------------
+[debug] [2026-06-26T23:19:42.523Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mebda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-06-26T23:19:42.524Z] CLI Version:   15.22.3
+[debug] [2026-06-26T23:19:42.524Z] Platform:      win32
+[debug] [2026-06-26T23:19:42.524Z] Node Version:  v24.14.0
+[debug] [2026-06-26T23:19:42.524Z] Detected Agent: unknown
+[debug] [2026-06-26T23:19:42.525Z] Time:          Sat Jun 27 2026 00:19:42 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2026-06-26T23:19:42.525Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mebda\Desktop\appREACT\frontend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-06-26T23:19:58.213Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-26T23:19:58.213Z] > authorizing via signed-in user (celiamebarki2003@gmail.com)
+[debug] [2026-06-26T23:19:58.221Z] Checked if tokens are valid: true, expires at: 1782518750405
+[debug] [2026-06-26T23:19:58.221Z] Checked if tokens are valid: true, expires at: 1782518750405
+[debug] [2026-06-26T23:19:58.224Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys [none]
+[debug] [2026-06-26T23:19:59.005Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys 200
+[debug] [2026-06-26T23:19:59.005Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys {"projectId":"coders-moneys","projectNumber":"616784200790","displayName":"Coders Moneys","name":"projects/coders-moneys","resources":{"hostingSite":"coders-moneys"},"state":"ACTIVE","etag":"1_017baa9a-cc54-47ef-902e-441030973a5d"}
+[info] i  Using project coders-moneys (Coders Moneys) . 
+[info] 
+=== Hosting Setup
+[info] 
+[debug] [2026-06-26T23:20:13.086Z] Checked if tokens are valid: true, expires at: 1782518750405
+[debug] [2026-06-26T23:20:13.086Z] Checked if tokens are valid: true, expires at: 1782518750405
+[debug] [2026-06-26T23:20:13.086Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys [none]
+[debug] [2026-06-26T23:20:13.946Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys 200
+[debug] [2026-06-26T23:20:13.946Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/coders-moneys {"projectId":"coders-moneys","projectNumber":"616784200790","displayName":"Coders Moneys","name":"projects/coders-moneys","resources":{"hostingSite":"coders-moneys"},"state":"ACTIVE","etag":"1_017baa9a-cc54-47ef-902e-441030973a5d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2026-06-26T23:21:28.515Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\mebda\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:508:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-06-26T23:21:34.159Z] ----------------------------------------------------------------------
+[debug] [2026-06-26T23:21:34.167Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mebda\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-06-26T23:21:34.167Z] CLI Version:   15.22.3
+[debug] [2026-06-26T23:21:34.167Z] Platform:      win32
+[debug] [2026-06-26T23:21:34.167Z] Node Version:  v24.14.0
+[debug] [2026-06-26T23:21:34.168Z] Detected Agent: unknown
+[debug] [2026-06-26T23:21:34.168Z] Time:          Sat Jun 27 2026 00:21:34 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2026-06-26T23:21:34.168Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mebda\Desktop\appREACT\frontend
+
+[debug] [2026-06-26T23:59:30.990Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\mebda\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:508:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+[error] 
+[error] Error: An unexpected error has occurred.
